@@ -1,0 +1,851 @@
+
+
+/*backgroung image section */
+.bg-img {
+/* Center and scale the image nicely */
+ background-color:black;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* Needed to position the navbar */
+ position: relative;
+ padding-bottom: 15px;
+}
+
+/* Position the navbar container inside the image */
+.container {
+ position:relative;
+ margin: 20px;
+ width: auto;
+}
+
+/*top on navbar index section */
+
+.hr{
+   color: #f2f2f2;
+}
+
+.contact{
+   color:#f2f2f2;
+   padding-top: 15px;
+   padding-left: 90px;
+   font-size: medium;
+   text-align: left;
+   display:flex;
+}
+
+.impo{
+   padding-top: 25px;
+   padding-bottom: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;  
+}
+
+h4 + h4 {
+   margin-left: 50px;  
+}
+
+.icon {
+   padding-right: 10px;
+}
+
+.icon:hover {
+   color:#DC143C;
+}
+
+.socialsite_links{
+   fill: #f2f2f2;
+   display: flex;
+   margin-top: 25px;
+   margin-left: 500px;
+   list-style-type: none;
+}
+
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-google-plus{
+   padding-right: 15px;
+}
+
+.fa-facebook:hover{
+   color:#DC143C;
+}
+ .fa-twitter:hover{
+   color:#DC143C;
+}
+.fa-instagram:hover{
+   color:#DC143C;
+}
+.fa-google-plus:hover{
+   color:#DC143C;
+}
+
+.button {
+    background-color:#DC143C; 
+    border: #DC143C;
+    border-radius:12px;
+    padding: 10px 24px;
+    margin-top: 20px;
+    margin-right: 55px;
+    margin-bottom: 50px;
+    color:#f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 16px solid;
+    cursor: pointer;
+}
+
+.button:hover {
+   color:black;  
+}
+
+
+
+
+
+
+/*seprate pages style start */
+
+/* The navbar */
+.topnav {
+ padding-top: 25PX;
+ float: right;
+ overflow:hidden;
+ background-color:transparent;
+ margin-left: 15px;
+ /*padding-right: 10px;*/
+}
+
+/* Navbar links */
+.topnav a {
+ color:#f2f2f2;
+ text-align: center;
+ margin-top: 10px;
+ padding:5px 20px;
+ padding-right:10px;
+ font-size: 15px;
+ font-weight: bold;
+ font-family: Arial, Helvetica, sans-serif;
+ text-decoration: none;
+}
+
+.topnav a:hover {
+ background-color:transparent;
+ color: #DC143C;
+}
+
+/*contact me */
+
+/*nav head text*/
+.contact_main_text{
+   margin-top: 250px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f2f2f2;
+   font-size: 50px;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact_para_text{
+   text-align: center;
+   text-transform:capitalize;
+   color: #f2f2f2;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+/*contact data*/
+
+.contact-data{
+   text-align: center;
+   padding-top: 75px;
+   padding-bottom: 70px;
+}
+
+.contact-icon{
+   padding-bottom: 20px;
+   color: rgb(243, 69, 69);
+}
+
+.contact-icon:hover{
+   color:lightslategrey;
+}
+
+.contact-txt{
+   color: lightslategrey;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-transform:capitalize;
+}
+
+.contact-form{
+   margin-top: 75px;
+   text-align: center;
+   padding-bottom: 50px;
+   margin-left: 100px;
+}
+
+.contact-text{
+   text-align: center;
+   text-transform:capitalize;
+   color: #000;
+   font-size: 30px;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact-para{
+   text-align: center;
+   text-transform:capitalize;
+   color:lightslategrey;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   padding-bottom: 25px;
+}
+
+.contact-btn{
+    background-color:rgba(219, 212, 212, 0.945); 
+    border: rgba(219, 212, 212, 0.945);
+    border-radius:12px;
+    padding: 10px 24px;
+    margin-top: 20px;
+    color:#000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 16px solid;
+    cursor: pointer;
+}
+
+.form-control{
+   background-color: rgba(219, 212, 212, 0.945);
+   color:#000;
+   border-radius: 25px;
+}
+
+.name{
+   display:inline-flex;
+}
+
+.map-img{
+   margin-top: 75px;
+}
+
+/*Menu*/
+.menu_main_text{
+   margin-top:150px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f2f2f2;
+   font-size: 50px;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu_para_text{
+   text-align: center;
+   text-transform:capitalize;
+   color: #f2f2f2;
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.head-menu_text{
+   color: #000;
+   padding-top: 50px;
+   margin-top: 75px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   text-transform: capitalize;
+   padding-top: 75px;
+}
+
+.para-menu_text{
+   padding-bottom: 50px;
+   color: lightslategray;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+
+/*slider*/
+.owl-para{
+   margin-top: 50px;
+   color: lightslategray;
+   text-align: center;
+   padding-bottom: 30px;
+}
+
+/*about us*/
+
+.aboutus_sec{
+   margin-top: 100px;
+   margin-left: 100px;
+}
+
+.about-img{
+   padding-right: 200px;
+   margin-right: 100px;
+}
+
+.about-icon{
+   display: flex;
+}
+.fa-arrow-circle-right{
+   margin-right: 5px;
+   color: #DC143C;
+}
+
+.num{
+   margin-top: 50px;
+   margin-left: 60px;
+   color: rgb(78, 72, 72);
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 17px;
+}
+
+.logo-img{
+   display: flex;
+}
+
+/* reserve img */
+
+.reserve-img{
+ margin-top: 75px;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ /* Needed to position the navbar */
+ position: relative;
+}
+
+.reserve-text{
+   margin-top: 50px;
+   color: #f2f2f2;
+   position: absolute;
+   top:8px;
+   margin-left: 50%;
+   text-align: center;
+}
+
+.reserve-txt{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
+
+.reserve-para{
+   padding-bottom: 30px;
+}
+
+/* reserve form*/
+
+.reserve-form .form-control{
+   background: transparent;
+   margin-top: 25px;
+   border-radius: 0%;
+   color: white;
+}
+
+.reserve-btn{
+   background: transparent;
+   border:0.5px solid rgba(255, 255, 255, 0.774);
+   border-radius:none;
+   padding: 10px 24px;
+   margin-top: 20px;
+   color: white;
+   text-align: center;
+   text-transform: capitalize;
+   display: inline-block;
+   font: 16px solid;
+   cursor: pointer;
+}
+
+
+/* service*/
+
+.service{
+   margin-top: 75px;
+   margin-left: 100px;
+}
+
+.service-text{
+   margin-top: 150px;
+   margin-right:75px;
+}
+
+.srv-text1{
+   color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 38px;
+   font-weight: 700;
+   text-transform: capitalize;
+   padding-bottom: 20px;
+}
+
+.srv-para1{
+   color: lightslategray;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 15px;
+   text-transform: capitalize;
+}
+
+.service-card{
+   margin-top: 25px;
+   padding-bottom: 15px;
+}
+
+
+.service-card-inner{
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   display:flex;
+   padding-top: 20px;
+   padding-bottom: 10px;
+   padding-right: 10px;
+   padding-left: 10px;
+ }
+ 
+ /* On mouse-over, add a deeper shadow */
+ .service-card-inner:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+ }
+
+.service-img{
+   padding-right: 30px;
+}
+
+.srv-text2{
+   color: #000;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+
+.srv-para2{
+   color: lightslategray;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   text-transform: capitalize;
+}
+
+/* 404 page */
+
+.page-main-text{
+   margin-top: 100px;
+   text-align: center;
+   color: #f2f2f2;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:100px;
+   font-weight: 900;
+}
+
+.page-main-text2{
+   text-align: center;
+   color: #f2f2f2;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:50px;
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+.page-para-text{
+   text-align: center;
+   color: #f2f2f2;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size:20px;
+}
+
+.search-box{
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background: rgba(255, 255, 255, 0.541);;
+   height: 50px;
+   border-radius: 30px;
+   padding: 15px;
+}
+.search-box:hover > .search-txt{
+   width: 300px;
+   padding: 0 6px;
+}
+
+.search-btn{
+   color: #e84118;
+   float: right;
+   width: 20px;
+   height: 20px;
+   border-radius: 50%;
+   background: rgba(255, 255, 255, 0.185);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.search-box:hover > .search-btn{
+  background: rgba(255, 255, 255, 0.541);
+}
+
+.search-txt{
+   border: none;
+   background: none;
+   outline: none;
+   float: left;
+   padding: 0;
+   color: black;
+   font-size: 18px;
+   transition: 0.4s;
+   line-height: 20px;
+   width: 0px;
+}
+
+.page_links{
+   color: #f2f2f2;
+   fill: #f2f2f2;
+   display: flex;
+   margin-top: 150px;
+   margin-left: 550px;
+   list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+/*seprate pages style end */
+
+
+/* heading section */
+
+.small_text {
+   padding-top: 90px;
+   padding-right: 600px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f2f2f2;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.small_text:hover{
+   color:#DC143C;
+}
+
+.main_text {
+   padding-right: 600px;
+   padding-bottom: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   color: #f2f2f2;
+   font-size: 60px;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1 {
+   background-color:#DC143C; 
+   border: #DC143C;
+   border-radius:12px;
+   padding: 15px 35px;
+   margin-left:300px;
+   color: white;
+   text-align: center;
+   text-transform:capitalize;
+   font: 20px solid;
+   cursor: pointer;
+}
+
+.button1:hover {
+   color: black;  
+}
+
+/*about us section*/
+
+.about_sec{
+   padding-top: 100px;
+   padding-left: 100px;
+}
+
+.img2{
+   padding-left: 80px;
+}
+
+.txt1{
+   color: gray;
+   text-transform:uppercase;
+   font-size:15px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight:700;
+}
+
+.txt2{
+   color: rgba(0, 0, 0, 0.822);
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+}
+
+.txt3{
+   color: rgba(0, 0, 0, 0.575);
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 900;
+}
+
+.txt4{
+   color: rgba(0, 0, 0, 0.527);
+   text-transform: capitalize;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: 700;
+}
+
+/*info section */
+
+.box {
+    background-color:#960723;
+   border-radius: 12px;
+   width: 700px;
+   height: 700px;
+   border: 5px solid rgb(226, 103, 103);;
+   margin-top: 100px;
+}
+  
+
+ .chef-img{
+   border-radius: 25px;
+   margin-right: 70%;
+   margin-top:140px;
+   margin-left: 150px;
+ }
+
+ .chef-img1{
+   border-radius: 25px;
+   margin-right: 70%;
+   margin-top:25px
+ }
+
+
+ .chef-txt{
+   padding-top: 70px;  
+   text-align: center;
+ }
+
+ .combine{
+   display:flex;
+ }
+
+ .head-text{
+    color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: capitalize;  
+    margin-left: 25px;
+ }
+
+ .head-text:hover{
+    color: #000;
+ }
+
+ .para-text{
+   color: #f2f2f2;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+   font-size: smaller;
+   text-transform: capitalize; 
+ }
+
+ .para-text:hover{
+    color: black;
+ }
+
+ .fa-cutlery{
+    color: #f2f2f2;
+    margin-left: 50px;
+ }
+ 
+ .fa-cutlery:hover{
+   color:#000;  
+}
+
+.fa-coffee{
+   color: #f2f2f2;
+   margin-left: 50px;
+}
+
+.fa-coffee:hover{
+  color:#000;  
+}
+
+/* our menu section */ 
+.head-menu{
+   color: white;
+   padding-top: 50px;
+   margin-top: 100px;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 40px;
+   font-weight: 700;
+   text-transform: capitalize;
+   padding-top: 75px;
+}
+
+.para-menu{
+   padding-bottom: 50px;
+   color: lightslategray;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: capitalize;
+}
+
+.owl-theme-menu{
+   margin-top: 50px;
+   background-color:gray;
+}
+
+/* vedio
+.vedio{
+   margin-top: 100px;
+}
+
+/*our-staff*/
+
+.our-staff{
+   margin-top: 75px;
+   text-align: center;
+   text-transform: capitalize;
+}
+
+.staff{
+   padding-bottom: 50px;
+}
+
+.head-staff{
+   color: #000;;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 48px;
+   font-weight: 700;
+   text-transform: capitalize;
+}
+
+.para-staff{
+   padding-bottom: 25px;
+   color: lightslategray;
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   text-transform: capitalize;
+}
+
+.card {
+   /* Add shadows to create the "card" effect */
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   transition: 0.3s;
+   display:flex;
+ }
+ 
+ /* On mouse-over, add a deeper shadow */
+ .card:hover {
+   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+ }
+ 
+ /* Add some padding inside the card container */
+ .container {
+   padding: 2px 16px;
+ }
+
+ .staff_links{
+   fill: #f2f2f2;
+   display: flex;
+   align-items: center;
+   /*margin-top: 25px;
+   margin-left: 500px;*/
+   list-style-type:none;
+ }
+
+ .staff-data{
+    text-align: center;
+ }
+
+ /*show*/
+
+ .owl-theme{
+    margin-top: 50px;
+    background-color:#DC143C;
+ }
+
+ /*box*/
+ .box-contain{ 
+    background-color:#DC143C;
+    padding-bottom:25px;
+ }
+
+ .box-head{
+    color:#f2f2f2;
+    padding-left: 75px;
+    padding-top: 25px;
+ }
+
+ .box-para{
+    color: #f2f2f2;
+    padding-left:100px;
+ }
+
+ .box-btn{
+    float: right;
+    margin-right: 100px;
+    margin-top: -75px;
+    background-color:#f2f2f2; 
+    padding: 10px 24px;
+    color:#DC143C;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font: 20px solid;
+    cursor: pointer;
+ }
+
+ /*footer*/
+ .footer{
+   /* margin-top: 50px;*/
+    text-align: center;
+    padding-bottom: 25px;
+ }
+
+ .footer_links{
+   fill: #000;
+   display: flex;
+   list-style-type: none;
+ }
+
+ .footer-text{
+    margin-top: 50px;
+ }
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+
+   
